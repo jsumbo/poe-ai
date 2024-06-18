@@ -10,12 +10,12 @@ bot = CatBot()
 # LangChainCatBot is a custom chatbot built on top of ChatGPT and LangChain.
 # Add your OpenAI key here, e.g. sk-1234
 
-OPEN_AI_API_KEY = "sk-proj-0O8He3q2UAFlHazfFqyBT3BlbkFJ2yvmMmPA7bnpw6ShKpDj"
+OPEN_AI_API_KEY = ""
 bot = LangChainCatBot(OPEN_AI_API_KEY)
 
 from fastapi_poe import run
 
 # Add your Poe API key here. You can go to https://poe.com/create_bot?api=1 to generate one.
-POE_API_KEY = "yWqakvXFm39bZBy3VwBFxFhAUa6pRKRv"
+POE_API_KEY = ""
 
 run(bot, api_key=POE_API_KEY)
