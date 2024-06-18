@@ -10,8 +10,8 @@ bot = CatBot()
 # LangChainCatBot is a custom chatbot built on top of ChatGPT and LangChain.
 # Add your OpenAI key here, e.g. sk-1234
 
-OPEN_AI_API_KEY = ""
-bot = LangChainCatBot(OPEN_AI_API_KEY)
+#OPEN_AI_API_KEY = ""
+#bot = LangChainCatBot(OPEN_AI_API_KEY)
 
 from fastapi_poe import run
 
